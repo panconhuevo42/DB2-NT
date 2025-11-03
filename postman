@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "848283ac-9eeb-41f2-81c7-a3935f69f1a2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49715400",
+		"_collection_link": "https://panconhuevo42-940499.postman.co/workspace/Angel-Nicolas-Ayala-Rios's-Work~2e6e0809-1d47-47fd-8659-c7779710768b/collection/49715400-848283ac-9eeb-41f2-81c7-a3935f69f1a2?action=share&source=collection_link&creator=49715400"
+	},
+	"item": [
+		{
+			"name": "vertodo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/690800e2bfd443dfb941f605",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						"690800e2bfd443dfb941f605"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/690800debfd443dfb941f603",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						"690800debfd443dfb941f603"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vertodo Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "poner psicologo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"A New Era in Alzheimer' s Research\",\r\n  \"autores\": \"Ricardo Maccioni y Sandeep Kumar Singh\",\r\n  \"resumen\": \"Estudio sobre Alzheimer.\",\r\n  \"anhoPublicacion\": \"2024\",\r\n  \"referencias\": \"0\",\r\n  \"baseDatos\": \"Science Direct\",\r\n  \"revista\": \" Academic Press\",\r\n  \"enlace\": \" https://03109140t-y-https-www-sciencedirect-com.konrad.metaproxy.org/book/9780443155406/a-new-era-in-alzheimer-s-research#editors \"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "analizar",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"A New Era in Alzheimer' 2 version reemasterizada con RGB\",\r\n  \"autores\": \"italiano y frances\",\r\n  \"resumen\": \"cosas de una carrera facil XD\",\r\n  \"anhoPublicacion\": \"2026\",\r\n  \"referencias\": \"4\",\r\n  \"baseDatos\": \"google academia multiribosomica\",\r\n  \"revista\": \" una muy popular revista\",\r\n  \"enlace\": \" https://unamuypopular.com \"\r\n}\r\n\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/690804e9bfd443dfb941f611",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						"690804e9bfd443dfb941f611"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "analizar Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "vertodo Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/articulos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"articulos",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

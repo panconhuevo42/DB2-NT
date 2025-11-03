@@ -20,7 +20,7 @@ router.post('/', async (req, res) => {
     const nuevoArticulo = new Articulo({
       titulo: req.body.titulo,
       autores: req.body.autores,
-      añoPublicacion: req.body.añoPublicacion,
+      anhoPublicacion: req.body.anhoPublicacion,
       referencias: req.body.referencias,
       baseDatos: req.body.baseDatos,
       revista: req.body.revista,
