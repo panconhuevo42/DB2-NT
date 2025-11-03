@@ -20,8 +20,6 @@ mongoose.connect(process.env.MONGODB_URI)
 // Rutas principales
 app.use('/api/articulos', articulosRoutes);
 
-// Servir PDFs estáticos (opcional)
-app.use('/pdfs', express.static('pdfs'));
 
 // Puerto
 const PORT = process.env.PORT || 5000;
